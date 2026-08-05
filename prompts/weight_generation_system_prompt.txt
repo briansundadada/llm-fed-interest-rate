@@ -1,0 +1,20 @@
+You are a senior FOMC policymaker.
+{persona_block}
+
+Your only task is to assign prospective decision weights. Do not recommend,
+imply, or discuss any interest-rate action.
+
+Allocate weights to:
+1. inflation stabilization,
+2. employment support,
+3. growth/output stabilization.
+
+Each weight must be between 0 and 1. The three weights must sum to exactly
+1.00, with a tolerance of 0.01.
+
+Return JSON only:
+{
+  "inflation_weight": <number>,
+  "employment_weight": <number>,
+  "growth_weight": <number>
+}

@@ -1,0 +1,31 @@
+provider,model,group,persona,scenario_id,scenario_theme,N,mean_bps,std_bps
+deepseek,deepseek-v4-flash,no_persona,none,sc1,hot inflation with strong real activity,15,25.0,0.0
+deepseek,deepseek-v4-flash,no_persona,none,sc2,weak labor market with near-target inflation,15,-25.0,0.0
+deepseek,deepseek-v4-flash,no_persona,none,sc3,mixed inflation-employment tradeoff,15,0.0,0.0
+deepseek,deepseek-v4-flash,placebo,placebo,sc1,hot inflation with strong real activity,15,23.33,6.45
+deepseek,deepseek-v4-flash,placebo,placebo,sc2,weak labor market with near-target inflation,15,-25.0,0.0
+deepseek,deepseek-v4-flash,placebo,placebo,sc3,mixed inflation-employment tradeoff,15,0.0,0.0
+deepseek,deepseek-v4-flash,policy_persona,centrist,sc1,hot inflation with strong real activity,15,25.0,0.0
+deepseek,deepseek-v4-flash,policy_persona,centrist,sc2,weak labor market with near-target inflation,15,-25.0,0.0
+deepseek,deepseek-v4-flash,policy_persona,centrist,sc3,mixed inflation-employment tradeoff,15,-1.67,6.45
+deepseek,deepseek-v4-flash,policy_persona,dove,sc1,hot inflation with strong real activity,15,0.0,0.0
+deepseek,deepseek-v4-flash,policy_persona,dove,sc2,weak labor market with near-target inflation,15,-36.67,12.91
+deepseek,deepseek-v4-flash,policy_persona,dove,sc3,mixed inflation-employment tradeoff,15,-25.0,0.0
+deepseek,deepseek-v4-flash,policy_persona,hawk,sc1,hot inflation with strong real activity,15,31.67,11.44
+deepseek,deepseek-v4-flash,policy_persona,hawk,sc2,weak labor market with near-target inflation,15,-1.67,6.45
+deepseek,deepseek-v4-flash,policy_persona,hawk,sc3,mixed inflation-employment tradeoff,15,25.0,0.0
+qwen,qwen-plus,no_persona,none,sc1,hot inflation with strong real activity,15,25.0,0.0
+qwen,qwen-plus,no_persona,none,sc2,weak labor market with near-target inflation,15,-25.0,0.0
+qwen,qwen-plus,no_persona,none,sc3,mixed inflation-employment tradeoff,15,-25.0,0.0
+qwen,qwen-plus,placebo,placebo,sc1,hot inflation with strong real activity,15,25.0,0.0
+qwen,qwen-plus,placebo,placebo,sc2,weak labor market with near-target inflation,15,-25.0,0.0
+qwen,qwen-plus,placebo,placebo,sc3,mixed inflation-employment tradeoff,15,-25.0,0.0
+qwen,qwen-plus,policy_persona,centrist,sc1,hot inflation with strong real activity,15,25.0,0.0
+qwen,qwen-plus,policy_persona,centrist,sc2,weak labor market with near-target inflation,15,-25.0,0.0
+qwen,qwen-plus,policy_persona,centrist,sc3,mixed inflation-employment tradeoff,15,-25.0,0.0
+qwen,qwen-plus,policy_persona,dove,sc1,hot inflation with strong real activity,15,-25.0,0.0
+qwen,qwen-plus,policy_persona,dove,sc2,weak labor market with near-target inflation,15,-25.0,0.0
+qwen,qwen-plus,policy_persona,dove,sc3,mixed inflation-employment tradeoff,15,-25.0,0.0
+qwen,qwen-plus,policy_persona,hawk,sc1,hot inflation with strong real activity,15,25.0,0.0
+qwen,qwen-plus,policy_persona,hawk,sc2,weak labor market with near-target inflation,15,-25.0,0.0
+qwen,qwen-plus,policy_persona,hawk,sc3,mixed inflation-employment tradeoff,15,25.0,0.0

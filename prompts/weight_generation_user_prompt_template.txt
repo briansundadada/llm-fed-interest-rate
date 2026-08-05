@@ -1,0 +1,9 @@
+QUARTERLY MACRO BRIEFING ({scenario_label}):
+- Current effective fed funds rate: {fed_funds:.2f}%
+- Unemployment rate: {unemployment:.1f}%
+- PCE inflation (YoY): {pce_inflation_yoy:.1f}%
+- 5-year inflation expectations: {inflation_exp_5y:.1f}%
+- Real GDP index: {real_gdp:.1f}
+- Potential GDP index: {potential_gdp:.1f}
+
+Assign the three policy-goal weights only. Do not discuss a rate decision.

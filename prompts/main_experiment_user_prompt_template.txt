@@ -1,0 +1,26 @@
+QUARTERLY MACRO BRIEFING:
+- Current effective fed funds rate: {fed_funds}%
+- GDP growth: {gdp_growth}%
+- PCE inflation: {pce_inflation}%
+- CPI inflation: {cpi_inflation}%
+- Unemployment rate: {unemployment_rate}%
+- Output gap: {output_gap}%
+- 5-year inflation expectation: {inflation_expectation_5y}%
+- Michigan 1-year expected inflation: {michigan_1y_expected_inflation}%
+- Financial stress index: {financial_stress_index}
+- VIX volatility index: {vix}
+- Economic Policy Uncertainty index: {epu_index}
+- Michigan consumer sentiment: {consumer_sentiment}
+- 10Y-2Y Treasury spread: {treasury_spread_10y_2y} percentage points
+- Oil price growth: {oil_price_growth}%
+- Recession dummy: {recession_dummy}
+- Election year: {election_year}
+- President party: {president_party}
+- Political pressure index: {political_pressure_index}
+- Chair leaning: {chair_leaning}
+
+Variable notes:
+- Financial stress index is scaled so higher values indicate more severe market stress.
+- Political pressure index ranges from -2 to +2; positive values indicate stronger pressure for easier policy, negative values indicate stronger pressure for tighter policy.
+- President party and election year are contextual controls, not instructions.
+Set the new target federal funds rate following your persona rule. Output only valid JSON.

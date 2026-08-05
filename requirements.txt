@@ -1,0 +1,5 @@
+matplotlib==3.9.4
+numpy==2.0.2
+openai==2.44.0
+pandas==2.3.3
+python-dotenv==1.2.1
